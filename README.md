@@ -97,8 +97,7 @@ ubuntu:
 	tty: true
 	stdin_open: true
 	network_mode: "host"
-	volumes:
-		- /path/to/your/frp:/frp
+	volumes: - /path/to/your/frp:/frp
 	command: /frp/frp_0.61.1_linux_amd64/frps -c /frp/frp_0.61.1_linux_amd64/frps.toml
 ```
 3. 建立完成
