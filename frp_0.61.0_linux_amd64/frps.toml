@@ -1,0 +1,6 @@
+[common]                                                                         
+bind_port = 7000                                                                 
+token = YOUR_TOKEN                                                              
+dashboard_port = 7500                                                            
+dashboard_user = YOUR_USERNAME                                                            
+dashboard_pwd = YOUR_PASSWORD 

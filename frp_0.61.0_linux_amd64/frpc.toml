@@ -1,0 +1,10 @@
+[common]
+server_addr = HOST_IP
+server_port = 7000
+token = YOUR_TOKEN
+
+[dify]
+type = tcp
+local_ip = LOCAL_IP
+local_port = LOCAL_PORT
+remote_port = PORT_YOU_WANT_TO_CONNECT
