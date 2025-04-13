@@ -25,7 +25,7 @@ git clone https://github.com/langgenius/dify.git --branch 0.15.3
 
 wget https://github.com/fatedier/frp/releases/download/v0.61.0/frp_0.61.0_linux_amd64.tar.gz
 
-tar -xzvf frp_0.61.0_linux_amd64.tar.gz
+tar -xzvf frp_0.61.2_linux_amd64.tar.gz
 
 ```
 
@@ -137,7 +137,7 @@ server_addr = HOST_IP # 主機的IP
 
 server_port = 7000
 
-token = YOUR_TOKEN
+token =YOUR_TOKEN
 
   
 
@@ -256,5 +256,6 @@ command: /frp/frp_0.61.1_linux_amd64/frps -c /frp/frp_0.61.1_linux_amd64/frps.to
 
 # 參考資料
 
-dify: https://dify.ai/
-FRP: https://github.com/fatedier/frp
+- dify: https://dify.ai/
+- FRP: https://github.com/fatedier/frp
+
